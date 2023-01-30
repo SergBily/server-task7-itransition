@@ -1,0 +1,27 @@
+{
+  "name": "backend-task6",
+  "version": "0.0.1",
+  "description": "server for task6",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "\"test\": \"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "author": "Sergey Belyavsky",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
